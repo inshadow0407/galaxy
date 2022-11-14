@@ -1,0 +1,31 @@
+body{
+    background-image: url("images/bg.jpg");
+    color: white;
+    background-repeat:space;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 40px;
+    font-size: 20px;
+}
+li{
+    margin-left: 10px;
+}
+h1{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    font-size: 48px;
+    font-weight: bold;
+}
